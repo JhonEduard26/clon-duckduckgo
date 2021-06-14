@@ -1,0 +1,163 @@
+:root {
+	--dark-primary: #1c1c1c;
+	--green-olive: #58b792;
+	--orange: #f5a339;
+	--purple: #5f63bd;
+	--light-blue: #87cef5;
+}
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+html {
+	font-size: 62.5%;
+}
+header,
+.main-container {
+	color: white;
+	background-color: var(--dark-primary);
+}
+header ul {
+	width: 100%;
+	height: 60px;
+	display: flex;
+	justify-content: flex-end;
+	font-size: 2rem;
+	color: white;
+}
+header ul li {
+	list-style: none;
+	padding: 8px;
+}
+main {
+	width: 100%;
+	/* height: auto; */
+	font-family: 'Segoe UI', 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.main-container {
+	height: calc(100vh - 60px);
+}
+.main-logo {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 100px;
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+.main-logo img {
+	width: 100%;
+	max-width: 200px;
+}
+div {
+	width: 76%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 1.2rem;
+	margin: 0 auto;
+}
+.input-container {
+	background-color: #333;
+}
+div input {
+	width: 100%;
+	height: 36px;
+	color: white;
+	background-color: #333;
+	font-size: 1.5rem;
+	padding: 8px;
+	border: none;
+	outline: none;
+	border-radius: 2px;
+}
+.icon-search {
+	padding: 8px;
+	font-size: 1.4rem;
+}
+div p {
+	text-align: center;
+	width: auto;
+	max-width: 160px;
+	margin-top: 28px;
+	margin-bottom: 28px;
+	padding: 8px;
+}
+.second-article,
+.third-article,
+.four-article,
+.five-article {
+	width: 100%;
+	height: 25%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	background-color: var(--green-olive);
+	color: white;
+}
+.second-article h1,
+.second-article p,
+.third-article h1,
+.third-article p,
+.four-article h1,
+.four-article p,
+.five-article h1,
+.five-article p {
+	text-align: center;
+	padding: 8%;
+	line-height: 2.4rem;
+	font-size: 2rem;
+}
+.second-article h1,
+.third-article h1,
+.four-article h1,
+.five-article h1 {
+	margin-top: 100px;
+}
+.second-article p,
+.third-article p,
+.four-article p,
+.five-article p {
+	font-size: 1.6rem;
+}
+.second-article button,
+.third-article button,
+.four-article button,
+.five-article button {
+	cursor: pointer;
+	height: 32px;
+	background-color: rgba(0, 0, 0, 0.4);
+	padding-left: 6%;
+	padding-right: 6%;
+	margin-top: 32px;
+	border: none;
+	border-radius: 4px;
+	color: white;
+}
+.second-article button:hover {
+	background-color: #312131;
+}
+.monster,
+.ghost,
+.bathtub,
+.alpinist {
+	margin-top: 80px;
+}
+figure img {
+	width: 100%;
+}
+.third-article {
+	background-color: var(--orange);
+}
+.four-article {
+	background-color: var(--purple);
+}
+.five-article {
+	background-color: var(--light-blue);
+}
+.five-article h1,
+.five-article p {
+	color: #365374;
+}

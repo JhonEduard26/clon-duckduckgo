@@ -1,0 +1,46 @@
+.main-logo {
+	padding: 60px;
+	padding-left: 0;
+	padding-right: 0;
+}
+.main-logo img {
+	max-width: 300px;
+}
+div {
+	width: 66%;
+	font-size: 1.6rem;
+}
+div input {
+	width: 92%;
+	height: 44px;
+}
+div p {
+	max-width: 240px;
+}
+.icon-search {
+	font-size: 1.8rem;
+}
+.second-article h1,
+.second-article p,
+.third-article h1,
+.third-article p,
+.four-article h1,
+.four-article p,
+.five-article h1,
+.five-article p {
+	line-height: 3.2rem;
+	font-size: 2.8rem;
+}
+.second-article p,
+.third-article p,
+.four-article p,
+.five-article p {
+	font-size: 2.4rem;
+}
+.second-article button,
+.third-article button,
+.four-article button,
+.five-article button {
+	height: 40px;
+	font-size: 1.8rem;
+}
